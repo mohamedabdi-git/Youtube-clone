@@ -1,0 +1,81 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    z-index: 200;
+    width: 72px;
+    padding-top: 5px;
+    background-color: white;
+  }
+
+
+
+/*inta ayuu ku eegyhy 
+kuwaan hoose waa sidebar csski caadiga ahaa */
+
+
+
+
+  .sidebar-link {
+    height: 74px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    cursor: pointer;
+  }
+
+  .sidebar-link,
+  .video-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .sidebar-link .tooltip {
+    position: absolute;
+    font-family: Roboto, arial;
+    background-color: rgb(150, 149, 149);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8px;
+    padding-left: 8px ;
+    font-size: 11px;
+    border-radius: 2px;
+    bottom: -15px;
+    right: -40px;
+    opacity: 0;
+
+    transition: opacity 0.15s;
+    pointer-events: none; 
+    white-space: nowrap;
+  }
+
+  .sidebar-link:hover .tooltip{
+    opacity: 1;
+  }
+
+  .sidebar-link:hover {
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    opacity: 1;
+  }
+
+  
+
+  .sidebar-link img {
+    height: 24px;
+    margin-bottom: 6px;
+  }
+
+  .sidebar-link div {
+    font-family: Roboto, arial;
+    font-size: 10px;
+
+  }
+
+ 
+

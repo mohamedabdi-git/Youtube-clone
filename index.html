@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body">
+
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <div class="youtube-logo-container">
+          <a href="https://www.youtube.com/" target="_blank"><img class="youtube-logo" src="icons/youtube-logo.svg"></a>
+          <div class="tooltip">YouTube Home</div>
+        </div>
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" name="q" type="search" placeholder="Made By MoHameD 🙋‍♂️">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip"> Search </div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip"> Search with your voice  </div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip"> Create </div>
+        </div>
+
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip"> YouTube apps </div>
+
+        </div>
+        
+        
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="tooltip"> Notifications </div>
+          <div class="notifications-count">3</div>
+        </div>
+        <div class="user-picture-container">
+          <img class="current-user-picture" src="Pics/my profile picture.jpg">
+        <div class="tooltip">
+          <img class="user-picture-hover" src="Pics/my profile picture.jpg">
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div class="tooltip">Home</div>
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+          <img src="icons/explore.svg">
+          <div class="tooltip">Explore</div>
+        <div> Explore </div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div class="tooltip">Subscriptions</div>
+        <div> Subscriptions </div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div class="tooltip">Originals</div>
+        <div> Originals</div> 
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div class="tooltip">YouTube-music</div>
+        <div> YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div class="tooltip">Libary</div>
+        <div> Libary</div>
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=OPMnKkZZzCk" target="_blank"><img class="thumbnail" src="Pics/ogaansho1.jpg"></a>
+          <div class="video-time">16:31</div>
+        </div>
+        <div class="video-info-grid">
+          
+          
+          <div class="channel-picture">
+            <div class="hover-box">
+             <a href="https://www.youtube.com/@ogaansho" target="_blank"><img class="profile-picture" src="Pics/ogaansho-channel-picture.jpg"></a>
+             <div class="hover-div">
+                 <img class="hover-img" src="Pics/ogaansho-channel-picture.jpg">
+                 <div class="h2">
+                     <p class="h2-text1">
+                         OGAANSHO
+                     </p>
+                     <p class="h2-text2">
+                         1.01M subcribers
+                     </p>
+                 </div>
+             </div>
+            </div>
+           </div>
+        
+          <div class="video-info">
+            <div class="video-title-container">
+              <p class="video-title">
+                Waxaad Gubaysa Noloshaada iyo Mustaqbalkaada |
+              </p>
+              <div class="tooltip">Waxaad Gubaysa Noloshaada iyo Mustaqbalkaada |</div>
+
+            </div>
+            <p class="video-author">
+              OGAANSHO 
+              
+                <div style="width: 10; height: 10; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" focusable="false" style="pointer-events: none; display: inherit; width: 160;  margin-top: -20px; margin-bottom:6px; height: 14; color:rgb(112, 112, 112);"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                
+            </p>
+            <p class="video-stats">
+              20k views &#183; 7 hours ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=9nc9TKJF3Js" target="_blank"><img class="thumbnail" src="Pics/ogaansho2.jpg"></a>
+          <div class="video-time">29:01</div>
+          <div class="watch-red-line"></div>
+        </div>
+        <div class="video-info-grid">
+          
+          
+          <div class="channel-picture">
+             <a href="https://www.youtube.com/@ogaansho" target="_blank"><img class="profile-picture" src="Pics/ogaansho-channel-picture.jpg"></a>
+           </div>
+        
+          <div class="video-info">
+            <div class="video-title-container">
+              <p class="video-title">
+                Maxaan U Weynay Dha dhanka Ciiida ?| Xoogaa Afkaar Ah.
+              </p>
+              <div class="tooltip">Maxaan U Weynay Dha dhanka Ciiida ?| Xoogaa Afkaar Ah.</div>
+
+            </div>
+            <div>
+              <p class="video-author">
+              OGAANSHO 
+              
+                <div style="width: 10; height: 10; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" focusable="false" style="pointer-events: none; display: inherit; width: 160;  margin-top: -20px; margin-bottom:6px; height: 14; color:rgb(112, 112, 112);"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                
+            </p>
+            </div>
+            <p class="video-stats">
+              49k views &#183; 3 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=gNHpzJpw7oE" target="_blank"><img class="thumbnail" src="Pics/ogaansho3.jpg"></a>
+          <div class="video-time">15:31</div>
+          <div class="watch-red-line"></div>
+        </div>
+        <div class="video-info-grid">
+          
+          
+          <div class="channel-picture">
+             <a href="https://www.youtube.com/@ogaansho" target="_blank"><img class="profile-picture" src="Pics/ogaansho-channel-picture.jpg"></a>
+           </div>
+        
+          <div class="video-info">
+            <div class="video-title-container">
+              <p class="video-title">
+                Khiyaano Aanan Horay Loo Arag | kulanka Ciidama Carabta iyo israil |
+              </p>
+              <div class="tooltip">Khiyaano Aanan Horay Loo Arag | kulanka Ciidama Carabta iyo israaiil |</div>
+
+            </div>
+            <div>
+              <p class="video-author">
+              OGAANSHO 
+              
+                <div style="width: 10; height: 10; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" focusable="false" style="pointer-events: none; display: inherit; width: 160;  margin-top: -20px; margin-bottom:6px; height: 14; color:rgb(112, 112, 112);"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                
+            </p>
+            </div>
+            <p class="video-stats">
+              57k views &#183; 4 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=nlRT5hnkvc4&t=492s" target="_blank"><img class="thumbnail" src="Pics/ogaansho4.jpg"></a>
+          <div class="video-time">12:31</div>
+          
+        </div>
+        <div class="video-info-grid">
+          
+          
+          <div class="channel-picture">
+             <a href="https://www.youtube.com/@ogaansho" target="_blank"><img class="profile-picture" src="Pics/ogaansho-channel-picture.jpg"></a>
+           </div>
+        
+          <div class="video-info">
+            <div class="video-title-container">
+              <p class="video-title">
+                Sanadka Ugu Muranka Badan Xajka | Tarxiilka Boqolal kun |
+              </p>
+              <div class="tooltip">Sanadka Ugu Muranka Badan Xajka | Tarxiilka Boqolal kun |</div>
+
+            </div>
+            <div>
+              <p class="video-author">
+              OGAANSHO 
+              
+                <div style="width: 10; height: 10; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" focusable="false" style="pointer-events: none; display: inherit; width: 160;  margin-top: -20px; margin-bottom:6px; height: 14; color:rgb(112, 112, 112);"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                
+            </p>
+            </div>
+            <p class="video-stats">
+              71k views &#183; 6 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=6zHIhndJyNo&t=901s" target="_blank"><img class="thumbnail" src="Pics/ogaansho5.jpg"></a>
+          <div class="video-time">21:29</div>
+          <div class="watch-red-line"></div>
+        </div>
+        <div class="video-info-grid">
+          
+          
+          <div class="channel-picture">
+             <a href="https://www.youtube.com/@ogaansho" target="_blank"><img class="profile-picture" src="Pics/ogaansho-channel-picture.jpg"></a>
+           </div>
+        
+          <div class="video-info">
+            <div class="video-title-container">
+              <p class="video-title">
+                Maalintii Ugu Adkayd Yurub waa 10/6/2024 | Guusha Midigta
+              </p>
+              <div class="tooltip">Maalintii Ugu Adkayd Yurub waa 10/6/2024 | Guusha Midigta</div>
+
+            </div>
+            <div>
+              <p class="video-author">
+              OGAANSHO 
+              
+                <div style="width: 10; height: 10; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" focusable="false" style="pointer-events: none; display: inherit; width: 160;  margin-top: -20px; margin-bottom:6px; height: 14; color:rgb(112, 112, 112);"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                
+            </p>
+            </div>
+            <p class="video-stats">
+              78k views &#183; 8 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=jQRRMEoVMY4" target="_blank"><img class="thumbnail" src="Pics/ogaansho6.jpg"></a>
+          <div class="video-time">15:34</div>
+          <div class="watch-red-line"></div>
+        </div>
+        <div class="video-info-grid">
+          
+          
+          <div class="channel-picture">
+             <a href="https://www.youtube.com/@ogaansho" target="_blank"><img class="profile-picture" src="Pics/ogaansho-channel-picture.jpg"></a>
+           </div>
+        
+          <div class="video-info">
+            <div class="video-title-container">
+              <p class="video-title">
+                Dil 210 Si Aad U Bad Baadisoh 4| Maraykanka Oo Markii Ugu ...|
+              </p>
+              <div class="tooltip">Dil 210 Si Aad U Bad Baadisoh 4| Maraykanka Oo Markii Ugu Horeysay Ka qayb qaatay Dagaalka |
+              </p></div>
+
+            </div>
+            <div>
+              <p class="video-author">
+              OGAANSHO 
+              
+                <div style="width: 10; height: 10; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" focusable="false" style="pointer-events: none; display: inherit; width: 160;  margin-top: -20px; margin-bottom:6px; height: 14; color:rgb(112, 112, 112);"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                
+            </p>
+            </div>
+            <p class="video-stats">
+              42k views &#183; 9 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=ikBp8m7HL6g&t=212s" target="_blank"><img class="thumbnail" src="Pics/ogaansho7.jpg"></a>
+          <div class="video-time">11:55</div>
+          
+        </div>
+        <div class="video-info-grid">
+          
+          
+          <div class="channel-picture">
+             <a href="https://www.youtube.com/@ogaansho" target="_blank"><img class="profile-picture" src="Pics/ogaansho-channel-picture.jpg"></a>
+           </div>
+        
+          <div class="video-info">
+            <div class="video-title-container">
+              <p class="video-title">
+                Sidee Khabiir Ugu Noqon Shay | Waqti intee le Eg Ayaad ...|
+              </p>
+              <div class="tooltip">Sidee Khabiir Ugu Noqon Shay | Waqti intee le Eg Ayaad u baahan tahay </div>
+
+            </div>
+            <div>
+              <p class="video-author">
+              OGAANSHO 
+              
+                <div style="width: 10; height: 10; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" focusable="false" style="pointer-events: none; display: inherit; width: 160;  margin-top: -20px; margin-bottom:6px; height: 14; color:rgb(112, 112, 112);"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                
+            </p>
+            </div>
+            <p class="video-stats">
+              50k views &#183; 9 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=DeBRkToZPd0" target="_blank"><img class="thumbnail" src="Pics/ogaansho8.jpg"></a>
+          <div class="video-time">13:00</div>
+          <div class="watch-red-line"></div>
+        </div>
+        <div class="video-info-grid">
+          
+          
+          <div class="channel-picture">
+             <a href="https://www.youtube.com/@ogaansho" target="_blank"><img class="profile-picture" src="Pics/ogaansho-channel-picture.jpg"></a>
+           </div>
+        
+          <div class="video-info">
+            <div class="video-title-container">
+              <p class="video-title">
+                Sudan | Musiibada Qarniga | Maxa Ka Dhacay Tuulada (Wadd Nuur)|
+              </p>
+              <div class="tooltip">Sudan | Musiibada Qarniga | Maxa Ka Dhacay Tuulada ( Wadd Nuur) |</div>
+
+            </div>
+            <div>
+              <p class="video-author">
+              OGAANSHO 
+              
+                <div style="width: 10; height: 10; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" focusable="false" style="pointer-events: none; display: inherit; width: 160;  margin-top: -20px; margin-bottom:6px; height: 14; color:rgb(112, 112, 112);"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                
+            </p>
+            </div>
+            <p class="video-stats">
+              66k views &#183; 11 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=fZVAWqaQ48c" target="_blank"><img class="thumbnail" src="Pics/ogaansho9.jpg"></a>
+          <div class="video-time">14:13</div>
+          <div class="watch-red-line"></div>
+        </div>
+        <div class="video-info-grid">
+          
+          
+          <div class="channel-picture">
+             <a href="https://www.youtube.com/@ogaansho" target="_blank"><img class="profile-picture" src="Pics/ogaansho-channel-picture.jpg"></a>
+           </div>
+        
+          <div class="video-info">
+            <div class="video-title-container">
+              <p class="video-title">
+                Bixitaanka Ciidamada itoobiya | shalay iyo Maant...|
+              </p>
+              <div class="tooltip">Bixitaanka Ciidamada itoobiya | shalay iyo Maant Siraaju Diin Xaqqaani</div>
+
+            </div>
+            <div>
+              <p class="video-author">
+              OGAANSHO 
+              
+                <div style="width: 10; height: 10; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" focusable="false" style="pointer-events: none; display: inherit; width: 160;  margin-top: -20px; margin-bottom:6px; height: 14; color:rgb(112, 112, 112);"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                
+            </p>
+            </div>
+            <p class="video-stats">
+              79k views &#183; 13 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=reuZcRIrxME" target="_blank"><img class="thumbnail" src="Pics/ogaansho10.jpg"></a>
+          <div class="video-time">14:38</div>
+          
+        </div>
+        <div class="video-info-grid">
+          
+          
+          <div class="channel-picture">
+             <a href="https://www.youtube.com/@ogaansho" target="_blank"><img class="profile-picture" src="Pics/ogaansho-channel-picture.jpg"></a>
+           </div>
+        
+          <div class="video-info">
+            <div class="video-title-container">
+              <p class="video-title">
+                Maxay Ugu Xanaaqsanyihiin Naadiga Real Madrid? |
+              </p>
+              <div class="tooltip">Maxay Ugu Xanaaqsanyihiin Naadiga Real Madrid? |</div>
+
+            </div>
+            <div>
+              <p class="video-author">
+              OGAANSHO 
+              
+                <div style="width: 10; height: 10; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" focusable="false" style="pointer-events: none; display: inherit; width: 160;  margin-top: -20px; margin-bottom:6px; height: 14; color:rgb(112, 112, 112);"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                
+            </p>
+            </div>
+            <p class="video-stats">
+              95k views &#183; 2 weeks ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=HOaaj7U8roA" target="_blank"><img class="thumbnail" src="Pics/ogaansho11.jpg"></a>
+          <div class="video-time">11:37</div>
+          <div class="watch-red-line"></div>
+        </div>
+        <div class="video-info-grid">
+          
+          
+          <div class="channel-picture">
+             <a href="https://www.youtube.com/@ogaansho" target="_blank"><img class="profile-picture" src="Pics/ogaansho-channel-picture.jpg"></a>
+           </div>
+        
+          <div class="video-info">
+            <div class="video-title-container">
+              <p class="video-title">
+                Mawjadaha Xorriyada Africa | Dalka Niger oo Cayriyey...|
+              </p>
+              <div class="tooltip">Mawjadaha Xorriyada Africa | Dalka Niger oo cayriyey Dhammaan Ciidamada Galbeedka |</div>
+
+            </div>
+            <div>
+              <p class="video-author">
+              OGAANSHO 
+              
+                <div style="width: 10; height: 10; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" focusable="false" style="pointer-events: none; display: inherit; width: 160;  margin-top: -20px; margin-bottom:6px; height: 14; color:rgb(112, 112, 112);"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                
+            </p>
+            </div>
+            <p class="video-stats">
+              60k views &#183; 2 weeks ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=MXl0LwPI-o0" target="_blank"><img class="thumbnail" src="Pics/ogaansho12.jpg"></a>
+          <div class="video-time">22:37</div>
+          <div class="watch-red-line"></div>
+        </div>
+        <div class="video-info-grid">
+          
+          
+          <div class="channel-picture">
+             <a href="https://www.youtube.com/@ogaansho" target="_blank"><img class="profile-picture" src="Pics/ogaansho-channel-picture.jpg"></a>
+           </div>
+        
+          <div class="video-info">
+            <div class="video-title-container">
+              <p class="video-title">
+               Documentarial | sideen 1,000,000 ku Gaarnay Ogaansho ...|
+              </p>
+              <div class="tooltip">Documentarial | sideen 1,000,000 ku Gaarnay Ogaansho Qisada oo Dhamaystiran |
+              </div>
+
+            </div>
+            <div>
+              <p class="video-author">
+              OGAANSHO 
+              
+                <div style="width: 10; height: 10; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" focusable="false" style="pointer-events: none; display: inherit; width: 160;  margin-top: -20px; margin-bottom:6px; height: 14; color:rgb(112, 112, 112);"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                
+            </p>
+            </div>
+            <p class="video-stats">
+              85k views &#183; 2 weeks ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=MW49plL76us" target="_blank"><img class="thumbnail" src="Pics/ogaansho13.jpg"></a>
+          <div class="video-time">14:52</div>
+          
+        </div>
+        <div class="video-info-grid">
+          
+          
+          <div class="channel-picture">
+             <a href="https://www.youtube.com/@ogaansho" target="_blank"><img class="profile-picture" src="Pics/ogaansho-channel-picture.jpg"></a>
+           </div>
+        
+          <div class="video-info">
+            <div class="video-title-container">
+              <p class="video-title">
+                Rafax | Asxaabul Ukhduudka Waqtigaan ...| 
+              </p>
+              <div class="tooltip">Rafax | Asxaabul Ukhduudka Waqtigaan | Baraaruga caalamka musiibada Rafax |</div>
+
+            </div>
+            <div>
+              <p class="video-author">
+              OGAANSHO 
+              
+                <div style="width: 10; height: 10; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" focusable="false" style="pointer-events: none; display: inherit; width: 160;  margin-top: -20px; margin-bottom:6px; height: 14; color:rgb(112, 112, 112);"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                
+            </p>
+            </div>
+            <p class="video-stats">
+              111k views &#183; 2 weekss ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=Z6PReCudgFc" target="_blank"><img class="thumbnail" src="Pics/ogaansho14.jpg"></a>
+          <div class="video-time">11:17</div>
+          <div class="watch-red-line"></div>
+        </div>
+        <div class="video-info-grid">
+          
+          
+          <div class="channel-picture">
+             <a href="https://www.youtube.com/@ogaansho" target="_blank"><img class="profile-picture" src="Pics/ogaansho-channel-picture.jpg"></a>
+           </div>
+        
+          <div class="video-info">
+            <div class="video-title-container">
+              <p class="video-title">
+                Isbuuca Ugu Xun Nolosha Natanyahu waxaan shir isku...|
+              </p>
+              <div class="tooltip">Isbuuca Ugu Xun Nolosha Natanyahu waxaan shir isku aragnay Waail Daxduux |</div>
+
+            </div>
+            <div>
+              <p class="video-author">
+              OGAANSHO 
+              
+                <div style="width: 10; height: 10; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" focusable="false" style="pointer-events: none; display: inherit; width: 160;  margin-top: -20px; margin-bottom:6px; height: 14; color:rgb(112, 112, 112);"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                
+            </p>
+            </div>
+            <p class="video-stats">
+              75k views &#183; 3 weeks ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=0xos1ZMLgUw" target="_blank"><img class="thumbnail" src="Pics/ogaansho15.jpg"></a>
+          <div class="video-time">14:38</div>
+          <div class="watch-red-line"></div>
+        </div>
+        <div class="video-info-grid">
+          
+          
+          <div class="channel-picture">
+             <a href="https://www.youtube.com/@ogaansho" target="_blank"><img class="profile-picture" src="Pics/ogaansho-channel-picture.jpg"></a>
+           </div>
+        
+          <div class="video-info">
+            <div class="video-title-container">
+              <p class="video-title">
+                2024 Dal | Wali Gumaysi Ku jiro ! | Minxad Kale ee Faransiska |
+              </p>
+              <div class="tooltip">2024 Dal | Wali Gumaysi Ku jiro ! | Minxad Kale ee Faransiska |</div>
+
+            </div>
+            <div>
+              <p class="video-author">
+              OGAANSHO 
+              
+                <div style="width: 10; height: 10; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" focusable="false" style="pointer-events: none; display: inherit; width: 160;  margin-top: -20px; margin-bottom:6px; height: 14; color:rgb(112, 112, 112);"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                
+            </p>
+            </div>
+            <p class="video-stats">
+              60k views &#183; 3 weeks ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=84WSiY3rGV0" target="_blank"><img class="thumbnail" src="Pics/ogaansho16.jpg"></a>
+          <div class="video-time">27:32</div>
+          
+        </div>
+        <div class="video-info-grid">
+          
+          
+          <div class="channel-picture">
+             <a href="https://www.youtube.com/@ogaansho" target="_blank"><img class="profile-picture" src="Pics/ogaansho-channel-picture.jpg"></a>
+           </div>
+        
+          <div class="video-info">
+            <div class="video-title-container">
+              <p class="video-title">
+                Warshada Hubka Abi Axmed iyo Mar Kale iyo ...|
+              </p>
+              <div class="tooltip">Warshada Hubka Abi Axmed iyo Mar Kale iyo Laba Wajiile Nimada Galbeedka |</div>
+
+            </div>
+            <div>
+              <p class="video-author">
+              OGAANSHO 
+              
+                <div style="width: 10; height: 10; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" focusable="false" style="pointer-events: none; display: inherit; width: 160;  margin-top: -20px; margin-bottom:6px; height: 14; color:rgb(112, 112, 112);"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                
+            </p>
+            </div>
+            <p class="video-stats">
+              61k views &#183; 4 weeks ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=RmeMbfwYV0A" target="_blank"><img class="thumbnail" src="Pics/ogaansho17.jpg"></a>
+          <div class="video-time">14:43</div>
+          <div class="watch-red-line"></div>
+        </div>
+        <div class="video-info-grid">
+          
+          
+          <div class="channel-picture">
+             <a href="https://www.youtube.com/@ogaansho" target="_blank"><img class="profile-picture" src="Pics/ogaansho-channel-picture.jpg"></a>
+           </div>
+        
+          <div class="video-info">
+            <div class="video-title-container">
+              <p class="video-title">
+                Buugga bil Gates Sameeyey | Furaha Albaab walba ...|
+              </p>
+              <div class="tooltip">Buugga bil Gates Sameeyey | Furaha Albaab walba | The Master Key System |</div>
+
+            </div>
+            <div>
+              <p class="video-author">
+              OGAANSHO 
+              
+                <div style="width: 10; height: 10; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" focusable="false" style="pointer-events: none; display: inherit; width: 160;  margin-top: -20px; margin-bottom:6px; height: 14; color:rgb(112, 112, 112);"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                
+            </p>
+            </div>
+            <p class="video-stats">
+              83k views &#183; 3 weeks ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=ACpVIK9m3ak" target="_blank"><img class="thumbnail" src="Pics/ogaansho18.jpg"></a>
+          <div class="video-time">18:03</div>
+          <div class="watch-red-line"></div>
+        </div>
+        <div class="video-info-grid">
+          
+          
+          <div class="channel-picture">
+             <a href="https://www.youtube.com/@ogaansho" target="_blank"><img class="profile-picture" src="Pics/ogaansho-channel-picture.jpg"></a>
+           </div>
+        
+          <div class="video-info">
+            <div class="video-title-container">
+              <p class="video-title">
+                Faraantiga Madaxweynaha Wax Badan Ayuu Mauujinayaa |
+              </p>
+              <div class="tooltip">Faraantiga Madaxweynaha Wax Badan Ayuu Mauujinayaa | Minxaddii Madaxwaynihii iiraan |</div>
+
+            </div>
+            <div>
+              <p class="video-author">
+              OGAANSHO 
+              
+                <div style="width: 10; height: 10; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" focusable="false" style="pointer-events: none; display: inherit; width: 160;  margin-top: -20px; margin-bottom:6px; height: 14; color:rgb(112, 112, 112);"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                
+            </p>
+            </div>
+            <p class="video-stats">
+              82k views &#183; 4 weeks ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=gaU4QeXkkpY&t=145s" target="_blank"><img class="thumbnail" src="Pics/ogaansho19.jpg"></a>
+          <div class="video-time">19:03</div>
+          
+        </div>
+        <div class="video-info-grid">
+          
+          
+          <div class="channel-picture">
+             <a href="https://www.youtube.com/@ogaansho" target="_blank"><img class="profile-picture" src="Pics/ogaansho-channel-picture.jpg"></a>
+           </div>
+        
+          <div class="video-info">
+            <div class="video-title-container">
+              <p class="video-title">
+                Maxa Ka Dhacay Xaafada Jaabaliya Waqooyiga Qaza |
+              </p>
+              <div class="tooltip">Maxa Ka Dhacay Xaafada Jaabaliya Waqooyiga Qaza |</div>
+
+            </div>
+            <div>
+              <p class="video-author">
+              OGAANSHO 
+              
+                <div style="width: 10; height: 10; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" focusable="false" style="pointer-events: none; display: inherit; width: 160;  margin-top: -20px; margin-bottom:6px; height: 14; color:rgb(112, 112, 112);"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                
+            </p>
+            </div>
+            <p class="video-stats">
+              75k views &#183; 1 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=Jcl1ZIQl2T0&t=878s" target="_blank"><img class="thumbnail" src="Pics/ogaansho20.jpg"></a>
+          <div class="video-time">16:39</div>
+          <div class="watch-red-line"></div>
+        </div>
+        <div class="video-info-grid">
+          
+          
+          <div class="channel-picture">
+             <a href="https://www.youtube.com/@ogaansho" target="_blank"><img class="profile-picture" src="Pics/ogaansho-channel-picture.jpg"></a>
+           </div>
+        
+          <div class="video-info">
+            <div class="video-title-container">
+              <p class="video-title">
+                Marka Zuckerberg iyo Farriinta Uu Gudbinaayo |
+              </p>
+              <div class="tooltip">Marka Zuckerberg iyo Farriinta Uu Gudbinaayo | iyo Qodob Kale |</div>
+
+            </div>
+            <div>
+              <p class="video-author">
+              OGAANSHO 
+              
+                <div style="width: 10; height: 10; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" focusable="false" style="pointer-events: none; display: inherit; width: 160;  margin-top: -20px; margin-bottom:6px; height: 14; color:rgb(112, 112, 112);"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path></svg></div>
+                
+            </p>
+            </div>
+            <p class="video-stats">
+              69k views &#183; 1 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

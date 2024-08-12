@@ -1,0 +1,234 @@
+.header {
+    height: 55px;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hamburger-menu {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    cursor: pointer;
+  }
+  
+  .youtube-logo {
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .middle-section {
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    flex: 1;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0;
+  }
+  
+  .search-bar::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    height: 40px;
+    width: 66px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    margin-left: -1px;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.15s;
+  }
+
+  .search-button:hover,
+  .voice-search-button:hover {
+    background-color:rgb(212, 212, 212);
+  }
+
+  .serach-button, 
+  .voice-search-button,
+  .upload-icon-container,
+  .youtube-apps-icon-container,
+  .notifications-icon-container,
+  .user-picture-container,
+  .youtube-logo-container,
+  .varified-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .search-button .tooltip,
+  .voice-search-button .tooltip,
+  .upload-icon-container .tooltip,
+  .youtube-apps-icon-container .tooltip,
+  .notifications-icon-container .tooltip,
+  .youtube-logo-container .tooltip{
+    position: absolute;
+    font-family: Roboto, arial;
+    background-color: gray;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8px;
+    padding-left: 8px ;
+    font-size: 11px;
+    border-radius: 2px;
+    bottom: -45px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none; 
+    white-space: nowrap;
+  }
+
+  .search-button:hover .tooltip,
+  .voice-search-button:hover .tooltip,
+  .upload-icon-container:hover .tooltip,
+  .youtube-apps-icon-container:hover .tooltip,
+  .notifications-icon-container:hover .tooltip,
+  .youtube-logo-container:hover .tooltip{
+    opacity: 1;
+  }
+  
+  .search-icon {
+    height: 25px;
+    
+  }
+  
+  .voice-search-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  
+  .voice-search-icon {
+    height: 24px;
+    
+  }
+  
+  .right-section {
+    width: 180px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+  }
+  
+  .upload-icon {
+    height: 24px;
+    cursor: pointer;
+  }
+
+  .upload-icon-container:hover ,
+  .youtube-apps-icon-container:hover,
+  .notifications-icon-container:hover,
+  .hamburger-menu:hover {
+    background-color: rgb(236, 233, 233);
+    padding: 6px 7px 6px 7px;
+    border-radius: 30px;
+    transition: 0.15s;
+  }
+
+  .notifications-icon-container:hover .notifications-count{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    transition: 0.15s;
+  }
+  
+  .youtube-apps-icon {
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  .notifications-icon {
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  .notifications-icon-container {
+    position: relative;
+  }
+  
+  .notifications-count {
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+  }
+  
+  .current-user-picture {
+    height: 32px;
+    border-radius: 16px;
+    cursor: pointer;
+  } 
+
+  .user-picture-hover {
+    position: absolute;
+    top: 0;
+    right: -15px;
+    border-radius: 50px;
+    opacity: 0;
+    
+  }
+
+  .user-picture-hover:hover{
+    opacity: 1;
+  }
+
+ .tooltip {
+  cursor: pointer;
+ 
+ }
+
+ 
+
+
+
